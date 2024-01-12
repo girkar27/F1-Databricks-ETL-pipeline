@@ -12,3 +12,5 @@ External sources ---> Ingestion ---> (RAW STORAGE) ---> processing ---> (Process
 
 The required mounting of the the DL containers needed for to fetch information from the DL
 Azure key vault was used to maintain user / admin access and additional data security.
+
+Project carried out in Pyspark, sql, Azure Databricks, python
