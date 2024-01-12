@@ -5,6 +5,8 @@ Data is fetched from external sources (APIs, CSV, Jsons) and ingested into an az
 The partioned data is then processed further joined and collected together from the processed storages and made ready for presenation. 
 The presenation directory is maintained to join and collect the processed data together for analysts to join and present their dashboards. 
 
+Analyzed the latancy taken by Full load and changed the approach to Incremental Load design patterns for efficient data ingestion and processing. 
+
 Pipeline: 
 
 External sources ---> Ingestion ---> (RAW STORAGE) ---> processing ---> (Processed Storage) ----> Presenation actions --> (presenatation storage)  ---> Visualization
